@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "@stockvio"
+  ],
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "env": {
+    "node": true
+  },
+  "rules": {
+    "@typescript-eslint/explicit-function-return-type": "off"
+  }
+}
